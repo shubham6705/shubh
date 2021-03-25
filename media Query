@@ -1,0 +1,58 @@
+2.
+body{
+    color: red;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+@media all and (max-width: 1000px) and (min-width: 500px) {
+    body{
+        color: yellow;
+    }
+}
+
+1.
+
+body{
+    color: red;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+@media all and (max-width: 500px) {
+    body{
+        color: blue;
+    }
+}
+
+3.
+
+body{
+    color: blue;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+@media all and (max-width: 1000px) and (min-width: 500px) {
+    body{
+        color: yellow;
+    }
+}
